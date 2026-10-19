@@ -3,6 +3,10 @@
 A [Claude Code](https://claude.com/claude-code) skill that turns an annotated lecture-slide PDF
 into a ready-to-import Anki deck (`.apkg`).
 
+> **Download:** get `anki-flashcards-skill.zip` from the
+> [latest release](https://github.com/Valentin06-lab/Anki-flashcard-skill/releases/latest)
+> (under **Assets**, *not* "Source code"), then follow [Install](#install-about-5-minutes) below.
+
 ## The idea: a "pink channel" to Claude
 
 You annotate lecture slides (tested with GoodNotes) and export a flattened PDF.
@@ -27,7 +31,7 @@ updates cards instead of duplicating them.
 Linux computer. (Not usable on iPhone/iPad, since it runs scripts locally.)
 
 ### Option A: let Claude do it (recommended)
-1. Download the ZIP from the **Releases** page (or **Code → Download ZIP**) and unzip it.
+1. Download `anki-flashcards-skill.zip` from the [latest release](https://github.com/Valentin06-lab/Anki-flashcard-skill/releases/latest) (under **Assets**) and unzip it. (Downloading the repo via **Code → Download ZIP** also works.)
 2. Move the unzipped folder anywhere **inside your uni / study folder**. It's a normal, visible
    folder, so you can drag it in.
 3. Open a terminal in that study folder and start Claude Code (`claude`).
